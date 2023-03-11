@@ -1,6 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "module": "esnext",
+    "baseUrl": ".",
+    "paths": {
+        "@mui/icons-material/*": ["node_modules/@mui/icons-material/*"]
+      },
+    "target": "ES6",
     "lib": [
       "dom",
       "dom.iterable",
@@ -18,7 +23,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react"
   },
   "include": [
     "src"
