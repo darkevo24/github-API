@@ -4,7 +4,7 @@ This is a React application that integrates with the GitHub API and allows users
 ## Installation
 To install the application, follow these steps:
 
-## Clone the repository using git clone https://github.com/darkevo24/github-API.git.
+### Clone the repository using git clone https://github.com/darkevo24/github-API.git.
 Navigate into the project directory with cd github-API.
 Install dependencies using npm install.
 Usage
